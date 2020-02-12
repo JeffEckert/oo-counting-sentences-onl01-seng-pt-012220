@@ -30,6 +30,7 @@ class String
   end
 
   def count_sentences
+    self.split
 
   end
 end
