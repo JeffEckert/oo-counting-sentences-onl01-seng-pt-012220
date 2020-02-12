@@ -21,6 +21,11 @@ class String
   end
 
   def exclamation?
+     if end_with?("?")
+      true
+    else
+      false
+    end
 
   end
 
